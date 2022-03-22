@@ -44,7 +44,7 @@ function drawChart() {
     async function fetchData() {
 
 
-        const res = await fetch('https://forsenjk-default-rtdb.firebaseio.com/' + streamer + '/last.json')
+        const res = await fetch('https://forsenjk-default-rtdb.firebaseio.com/' + streamer + "2" + '/last.json')
 
         const jfile = await res.json()
         per = jfile.percent
