@@ -2,7 +2,7 @@ google.charts.load('current', { 'packages': ['corechart'] });
 google.charts.setOnLoadCallback(drawChart);
 var mute = 0
 var audio = new Audio('notify.mp3');
-var streamer = "meea"
+var streamer = "forsen"
 var first = 0
 var showData1 = 1
 
