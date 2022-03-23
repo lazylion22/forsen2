@@ -1,6 +1,6 @@
 google.charts.load('current', { 'packages': ['corechart'] });
 
-const dates = ["22-03-2022,23-03-2022"]
+const dates = ["22-03-2022", "23-03-2022"]
 var loadedDates = []
 dates.forEach((x) => {
     console.log(x)
